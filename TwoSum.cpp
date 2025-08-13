@@ -25,3 +25,6 @@ vector<int> TwoSum(vector<int> nums, int target)
         {
             r--;
         }
+    }
+    return result;
+}
