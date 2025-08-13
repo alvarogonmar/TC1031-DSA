@@ -11,3 +11,4 @@ vector<int> TwoSum(vector<int> nums, int target)
     while (l < r)
     {
         int op = nums[l] + nums[r];
+        if (op == target)
