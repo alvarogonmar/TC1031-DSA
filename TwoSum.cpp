@@ -18,3 +18,6 @@ vector<int> TwoSum(vector<int> nums, int target)
             return result;
         }
         else if (op < target)
+        {
+            l++;
+        }
