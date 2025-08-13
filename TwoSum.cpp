@@ -15,3 +15,5 @@ vector<int> TwoSum(vector<int> nums, int target)
         {
             result.push_back(l);
             result.push_back(r);
+            return result;
+        }
