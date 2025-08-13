@@ -12,3 +12,5 @@ vector<int> TwoSum(vector<int> nums, int target)
     {
         int op = nums[l] + nums[r];
         if (op == target)
+        {
+            result.push_back(l);
