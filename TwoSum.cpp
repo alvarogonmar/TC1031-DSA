@@ -3,3 +3,5 @@
 using namespace std;
 
 vector<int> TwoSum(vector<int> nums, int target)
+{
+    vector<int> result = {};
