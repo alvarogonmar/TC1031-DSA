@@ -31,4 +31,5 @@ vector<int> TwoSum(vector<int> nums, int target)
 
 int main()
 {
+    vector<int> result = TwoSum({-5, 2, 3, 4, 6}, 7);
 }
