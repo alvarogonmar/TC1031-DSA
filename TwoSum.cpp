@@ -17,3 +17,4 @@ vector<int> TwoSum(vector<int> nums, int target)
             result.push_back(r);
             return result;
         }
+        else if (op < target)
