@@ -28,3 +28,7 @@ vector<int> TwoSum(vector<int> nums, int target)
     }
     return result;
 }
+
+int main()
+{
+}
