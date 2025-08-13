@@ -9,3 +9,5 @@ vector<int> TwoSum(vector<int> nums, int target)
     int r = nums.size() - 1;
 
     while (l < r)
+    {
+        int op = nums[l] + nums[r];
