@@ -34,4 +34,4 @@ int main()
     vector<int> result = TwoSum({-5, 2, 3, 4, 6}, 7);
 
     cout << "[";
-}
+    for (int i = 0; i < result.size(); i++)
