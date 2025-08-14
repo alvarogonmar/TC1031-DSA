@@ -39,3 +39,5 @@ int main()
         cout << result[i];
         if (i < result.size() - 1)
             cout << ", ";
+    }
+    cout << "]" << endl;
