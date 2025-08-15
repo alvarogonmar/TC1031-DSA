@@ -10,3 +10,4 @@ vector<int> TwoSum(vector<int> nums, int target)
         for (int j = i + 1; j < nums.size(); j++)
         {
             int op = nums[i] + nums[j];
+            if (op = nums[i] + nums[j])
