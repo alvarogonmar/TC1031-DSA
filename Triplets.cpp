@@ -10,3 +10,5 @@ int main()
     vector<vector<int>> result = ThreeSum(nums);
     cout << "Triplets encontrados:" << endl;
     for (const auto &triplet : result)
+    {
+        cout << "[";
