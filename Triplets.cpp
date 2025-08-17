@@ -13,3 +13,4 @@ int main()
     {
         cout << "[";
         for (int i = 0; i < triplet.size(); ++i)
+        {
