@@ -12,3 +12,4 @@ int main()
     for (const auto &triplet : result)
     {
         cout << "[";
+        for (int i = 0; i < triplet.size(); ++i)
