@@ -15,3 +15,4 @@ int main()
         for (int i = 0; i < triplet.size(); ++i)
         {
             cout << triplet[i];
+            if (i < triplet.size() - 1)
