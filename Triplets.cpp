@@ -26,3 +26,5 @@ int main()
 using namespace std;
 
 vector<vector<int>> findPairs(vector<int> nums, int start, int target);
+
+vector<vector<int>> ThreeSum(vector<int> nums)
