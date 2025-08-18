@@ -22,3 +22,5 @@ int main()
     }
     return 0;
 }
+#include <vector>
+using namespace std;
