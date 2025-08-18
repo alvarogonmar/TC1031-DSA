@@ -17,3 +17,5 @@ int main()
             cout << triplet[i];
             if (i < triplet.size() - 1)
                 cout << ", ";
+        }
+        cout << "]\n";
