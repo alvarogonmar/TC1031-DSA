@@ -24,3 +24,5 @@ int main()
 }
 #include <vector>
 using namespace std;
+
+vector<vector<int>> findPairs(vector<int> nums, int start, int target);
