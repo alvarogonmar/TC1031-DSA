@@ -37,3 +37,5 @@ vector<vector<int>> ThreeSum(vector<int> nums)
         if (nums[i] > 0)
         {
             return triplets;
+        }
+        if (i > 0 and nums[i] == nums[i - 1])
