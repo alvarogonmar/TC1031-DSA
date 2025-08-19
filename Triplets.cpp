@@ -45,3 +45,6 @@ vector<vector<int>> ThreeSum(vector<int> nums)
         // Retornar todos los pares
         vector<vector<int>> pairs = findPairs(nums, i + 1, -nums[i]);
         for (int j = 0; j < pairs.size(); j++)
+        {
+            triplets.push_back({nums[i], pairs[j][0], pairs[j][1]});
+        }
