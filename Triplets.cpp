@@ -39,3 +39,5 @@ vector<vector<int>> ThreeSum(vector<int> nums)
             return triplets;
         }
         if (i > 0 and nums[i] == nums[i - 1])
+        {
+            continue;
