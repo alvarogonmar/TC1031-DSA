@@ -41,3 +41,6 @@ vector<vector<int>> ThreeSum(vector<int> nums)
         if (i > 0 and nums[i] == nums[i - 1])
         {
             continue;
+        }
+        // Retornar todos los pares
+        vector<vector<int>> pairs = findPairs(nums, i + 1, -nums[i]);
