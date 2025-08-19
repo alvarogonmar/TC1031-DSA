@@ -50,3 +50,6 @@ vector<vector<int>> ThreeSum(vector<int> nums)
         }
     }
     return triplets;
+}
+
+vector<vector<int>> findPairs(vector<int> nums, int start, int target)
