@@ -48,3 +48,5 @@ vector<vector<int>> ThreeSum(vector<int> nums)
         {
             triplets.push_back({nums[i], pairs[j][0], pairs[j][1]});
         }
+    }
+    return triplets;
