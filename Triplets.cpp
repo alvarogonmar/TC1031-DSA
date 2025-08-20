@@ -62,3 +62,5 @@ vector<vector<int>> findPairs(vector<int> nums, int start, int target)
     {
         int op = nums[left] + nums[right];
         if (op == target)
+        {
+            pairs.push_back({nums[left], nums[right]});
