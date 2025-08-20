@@ -56,3 +56,5 @@ vector<vector<int>> findPairs(vector<int> nums, int start, int target)
 {
     int left = start;
     int right = nums.size() - 1;
+
+    vector<vector<int>> pairs = {};
