@@ -65,3 +65,4 @@ vector<vector<int>> findPairs(vector<int> nums, int start, int target)
         {
             pairs.push_back({nums[left], nums[right]});
             left++;
+            right--;
