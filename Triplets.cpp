@@ -73,3 +73,6 @@ vector<vector<int>> findPairs(vector<int> nums, int start, int target)
             while (left < right && nums[right] == nums[right + 1])
             {
                 right--;
+            }
+        }
+        else if (op < target)
