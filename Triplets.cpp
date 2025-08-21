@@ -76,3 +76,5 @@ vector<vector<int>> findPairs(vector<int> nums, int start, int target)
             }
         }
         else if (op < target)
+        {
+            left++;
