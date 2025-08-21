@@ -80,3 +80,5 @@ vector<vector<int>> findPairs(vector<int> nums, int start, int target)
             left++;
         }
         else
+        {
+            right--;
