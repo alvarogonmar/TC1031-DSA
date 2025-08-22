@@ -8,8 +8,7 @@ def containerWithMostWater(array, out):
         if array[l] < array[r]:
             l += 1
         elif array[l] > array[r]:
-
-        
+            r += 1        
 
 
 
