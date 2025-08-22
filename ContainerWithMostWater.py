@@ -6,6 +6,7 @@ def containerWithMostWater(array, out):
     area = min(array[r], array[l])*(r - l)
     while l < r:
         if array[l] < array[r]:
+            l += 1
 
         
 
