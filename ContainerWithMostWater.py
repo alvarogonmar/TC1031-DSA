@@ -1,7 +1,7 @@
 
-def containerWithMostWater(array, out):
+def containerWithMostWater(array, out): # def containerWithMostWater para encontrar el contenedor con más agua
     l = 0
-    r = array.lenght() - 1
+    r = array.length() - 1
 
     area = min(array[r], array[l])*(r - l)
     while l < r:
