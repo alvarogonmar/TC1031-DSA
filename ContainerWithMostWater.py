@@ -5,6 +5,7 @@ def containerWithMostWater(array, out, height): # def containerWithMostWater par
         maxArea = 0
 
         while l < r:
+            area = min(height[r], height[l])*(r - l)
 
 
 
