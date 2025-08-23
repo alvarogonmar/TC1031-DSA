@@ -13,6 +13,6 @@ def containerWithMostWater(array, out, height): # def containerWithMostWater par
                 r -= 1
             else:
                 r -= 1
-
+        return maxArea
 
 
