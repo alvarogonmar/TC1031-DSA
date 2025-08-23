@@ -11,6 +11,7 @@ def containerWithMostWater(array, out, height): # def containerWithMostWater par
                 l += 1
             elif height[l] > height[r]:
                 r -= 1
+            else:
 
 
 
