@@ -2,7 +2,7 @@
 def containerWithMostWater(array, out, height): # def containerWithMostWater para encontrar el contenedor con más agua
         l = 0 # puntero izquierdo
         r = len(height) - 1 # puntero derecho
-        maxArea = 0
+        maxArea = 0 # área máxima
 
         while l < r:
             area = min(height[r], height[l])*(r - l)
