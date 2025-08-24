@@ -4,8 +4,8 @@ def containerWithMostWater(array, out, height): # def containerWithMostWater par
         r = len(height) - 1 # puntero derecho
         maxArea = 0 # área máxima
 
-        while l < r:
-            area = min(height[r], height[l])*(r - l)
+        while l < r: 
+            area = min(height[r], height[l])*(r - l) # calcular el área
             maxArea = max(area, maxArea)
             if height[l] < height[r]:
                 l += 1
