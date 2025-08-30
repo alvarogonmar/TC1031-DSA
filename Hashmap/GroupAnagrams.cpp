@@ -11,3 +11,6 @@ public:
             string copy = s;
             sort(copy.begin(), copy.end());
             table[copy].push_back(s);
+        }
+        for (auto it = table.begin(); it != table.end(); it++)
+        {
