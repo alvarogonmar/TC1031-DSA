@@ -8,3 +8,4 @@ public:
 
         for (string s : strs)
         {
+            string copy = s;
