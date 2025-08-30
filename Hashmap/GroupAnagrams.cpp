@@ -5,3 +5,6 @@ public:
     {
         vector<vector<string>> res = {};
         unordered_map<string, vector<string>> table = {};
+
+        for (string s : strs)
+        {
