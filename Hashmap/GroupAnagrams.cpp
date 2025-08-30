@@ -14,3 +14,4 @@ public:
         }
         for (auto it = table.begin(); it != table.end(); it++)
         {
+            res.push_back(it->second);
