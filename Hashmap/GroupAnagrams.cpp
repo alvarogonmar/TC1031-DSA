@@ -9,3 +9,4 @@ public:
         for (string s : strs)
         {
             string copy = s;
+            sort(copy.begin(), copy.end());
