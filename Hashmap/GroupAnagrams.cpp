@@ -1,3 +1,8 @@
+#include <vector>
+#include <string>
+#include <unordered_map>
+#include <algorithm>
+using namespace std;
 class Solution
 {
 public:
@@ -15,3 +20,7 @@ public:
         for (auto it = table.begin(); it != table.end(); it++)
         {
             res.push_back(it->second);
+        }
+        return res;
+    }
+};
