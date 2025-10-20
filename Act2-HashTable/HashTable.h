@@ -5,3 +5,6 @@
 #include <vector>
 #include <string>
 using namespace std;
+
+// HashTable declaration with quadratic probing
+class HashTable
