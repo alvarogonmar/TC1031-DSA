@@ -8,3 +8,5 @@ using namespace std;
 
 // HashTable declaration with quadratic probing
 class HashTable
+{
+private:
