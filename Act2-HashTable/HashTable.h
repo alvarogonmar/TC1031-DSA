@@ -10,3 +10,4 @@ using namespace std;
 class HashTable
 {
 private:
+    struct Entry
