@@ -14,3 +14,4 @@ private:
     {
         string key;
         int value;
+        bool occupied;
