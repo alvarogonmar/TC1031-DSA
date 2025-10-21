@@ -15,3 +15,4 @@ private:
         string key;
         int value;
         bool occupied;
+        bool deleted;
