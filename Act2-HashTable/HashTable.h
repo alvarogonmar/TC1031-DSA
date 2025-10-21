@@ -17,3 +17,4 @@ private:
         bool occupied;
         bool deleted;
         Entry();
+    };
