@@ -12,3 +12,4 @@ class HashTable
 private:
     struct Entry
     {
+        string key;
