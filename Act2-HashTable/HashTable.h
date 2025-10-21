@@ -13,3 +13,4 @@ private:
     struct Entry
     {
         string key;
+        int value;
