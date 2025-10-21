@@ -18,3 +18,4 @@ private:
         bool deleted;
         Entry();
     };
+    vector<Entry> table;
