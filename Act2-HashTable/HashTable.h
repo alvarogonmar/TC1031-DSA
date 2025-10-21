@@ -16,3 +16,4 @@ private:
         int value;
         bool occupied;
         bool deleted;
+        Entry();
