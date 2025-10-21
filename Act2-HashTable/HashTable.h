@@ -20,3 +20,4 @@ private:
     };
     vector<Entry> table;
     int capacity;
+    int size;
