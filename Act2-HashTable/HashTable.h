@@ -11,3 +11,4 @@ class HashTable
 {
 private:
     struct Entry
+    {
