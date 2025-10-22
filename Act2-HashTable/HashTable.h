@@ -21,3 +21,5 @@ private:
     vector<Entry> table;
     int capacity;
     int size;
+
+    int hash(const string &key) const;
