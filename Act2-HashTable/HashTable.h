@@ -23,3 +23,5 @@ private:
     int size;
 
     int hash(const string &key) const;
+
+public:
