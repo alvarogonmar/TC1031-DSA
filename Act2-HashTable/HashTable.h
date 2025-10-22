@@ -36,3 +36,7 @@ public:
 
     // Remove key
     void remove(const string &key);
+
+    // Display table contents
+    void display() const;
+};
