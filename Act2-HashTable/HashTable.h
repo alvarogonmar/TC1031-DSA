@@ -33,3 +33,6 @@ public:
 
     // Get value by key
     int get(const string &key) const;
+
+    // Remove key
+    void remove(const string &key);
