@@ -25,3 +25,5 @@ private:
     int hash(const string &key) const;
 
 public:
+    // Constructor
+    HashTable(int capacity = 100);
