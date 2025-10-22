@@ -30,3 +30,6 @@ public:
 
     // Insert key-value pair
     void insert(const string &key, int value);
+
+    // Get value by key
+    int get(const string &key) const;
