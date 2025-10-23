@@ -21,3 +21,6 @@ HashTable::HashTable(int capacity) : capacity(capacity), size(0)
 {
     table.resize(capacity);
 }
+
+// Insert key-value pair using quadratic probing
+void HashTable::insert(const std::string &key, int value)
