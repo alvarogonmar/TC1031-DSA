@@ -9,3 +9,4 @@ HashTable::Entry::Entry() : key(""), value(0), occupied(false), deleted(false) {
 int HashTable::hash(const std::string &key) const
 {
     unsigned long hash = 0;
+    for (char c : key)
