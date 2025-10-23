@@ -18,3 +18,6 @@ int HashTable::hash(const std::string &key) const
 
 // Constructor
 HashTable::HashTable(int capacity) : capacity(capacity), size(0)
+{
+    table.resize(capacity);
+}
