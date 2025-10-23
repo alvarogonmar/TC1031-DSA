@@ -12,3 +12,6 @@ int HashTable::hash(const std::string &key) const
     for (char c : key)
     {
         hash = hash * 31 + c;
+    }
+    return hash % capacity;
+}
