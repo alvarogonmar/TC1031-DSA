@@ -26,3 +26,4 @@ HashTable::HashTable(int capacity) : capacity(capacity), size(0)
 void HashTable::insert(const std::string &key, int value)
 {
     int idx = hash(key);
+    int i = 0;
