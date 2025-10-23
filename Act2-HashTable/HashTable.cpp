@@ -10,3 +10,5 @@ int HashTable::hash(const std::string &key) const
 {
     unsigned long hash = 0;
     for (char c : key)
+    {
+        hash = hash * 31 + c;
