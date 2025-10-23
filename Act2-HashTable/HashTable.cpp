@@ -15,3 +15,6 @@ int HashTable::hash(const std::string &key) const
     }
     return hash % capacity;
 }
+
+// Constructor
+HashTable::HashTable(int capacity) : capacity(capacity), size(0)
