@@ -27,3 +27,4 @@ void HashTable::insert(const std::string &key, int value)
 {
     int idx = hash(key);
     int i = 0;
+    int firstDeleted = -1;
