@@ -37,3 +37,4 @@ void HashTable::insert(const std::string &key, int value)
                 probe = firstDeleted;
             table[probe].key = key;
             table[probe].value = value;
+            table[probe].occupied = true;
