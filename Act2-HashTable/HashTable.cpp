@@ -32,3 +32,5 @@ void HashTable::insert(const std::string &key, int value)
     {
         int probe = (idx + i * i) % capacity;
         if (!table[probe].occupied)
+        {
+            if (firstDeleted != -1)
