@@ -34,3 +34,4 @@ void HashTable::insert(const std::string &key, int value)
         if (!table[probe].occupied)
         {
             if (firstDeleted != -1)
+                probe = firstDeleted;
