@@ -29,3 +29,5 @@ void HashTable::insert(const std::string &key, int value)
     int i = 0;
     int firstDeleted = -1;
     while (i < capacity)
+    {
+        int probe = (idx + i * i) % capacity;
