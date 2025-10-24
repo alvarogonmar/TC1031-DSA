@@ -31,3 +31,4 @@ void HashTable::insert(const std::string &key, int value)
     while (i < capacity)
     {
         int probe = (idx + i * i) % capacity;
+        if (!table[probe].occupied)
