@@ -39,3 +39,4 @@ void HashTable::insert(const std::string &key, int value)
             table[probe].value = value;
             table[probe].occupied = true;
             table[probe].deleted = false;
+            size++;
