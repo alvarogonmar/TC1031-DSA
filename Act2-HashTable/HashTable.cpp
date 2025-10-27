@@ -51,3 +51,5 @@ void HashTable::insert(const std::string &key, int value)
         {
             firstDeleted = probe;
         }
+        i++;
+    }
