@@ -42,3 +42,5 @@ void HashTable::insert(const std::string &key, int value)
             size++;
             return;
         }
+        else if (table[probe].occupied && table[probe].key == key && !table[probe].deleted)
+        {
