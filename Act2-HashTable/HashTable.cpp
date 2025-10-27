@@ -60,3 +60,4 @@ void HashTable::insert(const std::string &key, int value)
 int HashTable::get(const std::string &key) const
 {
     int idx = hash(key);
+    int i = 0;
