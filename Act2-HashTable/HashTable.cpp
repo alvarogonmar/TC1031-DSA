@@ -49,3 +49,5 @@ void HashTable::insert(const std::string &key, int value)
         }
         else if (table[probe].deleted && firstDeleted == -1)
         {
+            firstDeleted = probe;
+        }
