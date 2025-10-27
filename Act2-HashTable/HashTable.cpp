@@ -47,3 +47,5 @@ void HashTable::insert(const std::string &key, int value)
             table[probe].value = value; // Update value
             return;
         }
+        else if (table[probe].deleted && firstDeleted == -1)
+        {
