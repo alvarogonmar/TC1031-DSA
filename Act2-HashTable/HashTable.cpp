@@ -53,3 +53,5 @@ void HashTable::insert(const std::string &key, int value)
         }
         i++;
     }
+    std::cout << "HashTable is full!\n";
+}
