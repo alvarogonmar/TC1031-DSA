@@ -55,3 +55,6 @@ void HashTable::insert(const std::string &key, int value)
     }
     std::cout << "HashTable is full!\n";
 }
+
+// Get value by key
+int HashTable::get(const std::string &key) const
