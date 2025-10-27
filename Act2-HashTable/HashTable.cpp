@@ -58,3 +58,5 @@ void HashTable::insert(const std::string &key, int value)
 
 // Get value by key
 int HashTable::get(const std::string &key) const
+{
+    int idx = hash(key);
