@@ -64,3 +64,4 @@ int HashTable::get(const std::string &key) const
     while (i < capacity)
     {
         int probe = (idx + i * i) % capacity;
+        if (table[probe].occupied && table[probe].key == key && !table[probe].deleted)
