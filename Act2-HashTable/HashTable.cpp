@@ -70,3 +70,5 @@ int HashTable::get(const std::string &key) const
         }
         else if (!table[probe].occupied && !table[probe].deleted)
         {
+            break;
+        }
