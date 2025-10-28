@@ -72,3 +72,5 @@ int HashTable::get(const std::string &key) const
         {
             break;
         }
+        i++;
+    }
