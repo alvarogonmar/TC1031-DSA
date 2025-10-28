@@ -68,3 +68,5 @@ int HashTable::get(const std::string &key) const
         {
             return table[probe].value;
         }
+        else if (!table[probe].occupied && !table[probe].deleted)
+        {
