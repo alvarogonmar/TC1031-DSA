@@ -79,3 +79,5 @@ int HashTable::get(const std::string &key) const
 
 // Remove key
 void HashTable::remove(const std::string &key)
+{
+    int idx = hash(key);
