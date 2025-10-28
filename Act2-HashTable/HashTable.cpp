@@ -62,3 +62,5 @@ int HashTable::get(const std::string &key) const
     int idx = hash(key);
     int i = 0;
     while (i < capacity)
+    {
+        int probe = (idx + i * i) % capacity;
