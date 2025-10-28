@@ -76,3 +76,6 @@ int HashTable::get(const std::string &key) const
     }
     throw std::runtime_error("Key not found");
 }
+
+// Remove key
+void HashTable::remove(const std::string &key)
