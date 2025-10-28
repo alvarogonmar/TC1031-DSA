@@ -74,3 +74,5 @@ int HashTable::get(const std::string &key) const
         }
         i++;
     }
+    throw std::runtime_error("Key not found");
+}
