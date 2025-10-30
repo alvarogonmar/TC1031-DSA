@@ -85,3 +85,4 @@ void HashTable::remove(const std::string &key)
     while (i < capacity)
     {
         int probe = (idx + i * i) % capacity;
+        if (table[probe].occupied && table[probe].key == key && !table[probe].deleted)
