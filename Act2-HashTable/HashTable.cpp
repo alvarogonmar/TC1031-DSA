@@ -90,3 +90,5 @@ void HashTable::remove(const std::string &key)
             table[probe].deleted = true;
             table[probe].occupied = false;
             size--;
+            return;
+        }
