@@ -83,3 +83,5 @@ void HashTable::remove(const std::string &key)
     int idx = hash(key);
     int i = 0;
     while (i < capacity)
+    {
+        int probe = (idx + i * i) % capacity;
