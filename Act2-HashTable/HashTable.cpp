@@ -88,3 +88,4 @@ void HashTable::remove(const std::string &key)
         if (table[probe].occupied && table[probe].key == key && !table[probe].deleted)
         {
             table[probe].deleted = true;
+            table[probe].occupied = false;
