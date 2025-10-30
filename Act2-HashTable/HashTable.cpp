@@ -92,3 +92,4 @@ void HashTable::remove(const std::string &key)
             size--;
             return;
         }
+        else if (!table[probe].occupied && !table[probe].deleted)
