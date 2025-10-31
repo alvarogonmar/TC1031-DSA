@@ -103,3 +103,5 @@ void HashTable::remove(const std::string &key)
 
 // Display table contents
 void HashTable::display() const
+{
+    std::cout << "HashTable contents:\n";
