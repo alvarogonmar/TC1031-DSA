@@ -93,3 +93,6 @@ void HashTable::remove(const std::string &key)
             return;
         }
         else if (!table[probe].occupied && !table[probe].deleted)
+        {
+            break;
+        }
