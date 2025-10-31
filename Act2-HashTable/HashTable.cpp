@@ -100,3 +100,6 @@ void HashTable::remove(const std::string &key)
     }
     std::cout << "Key not found for removal\n";
 }
+
+// Display table contents
+void HashTable::display() const
