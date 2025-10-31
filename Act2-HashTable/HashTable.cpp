@@ -105,3 +105,4 @@ void HashTable::remove(const std::string &key)
 void HashTable::display() const
 {
     std::cout << "HashTable contents:\n";
+    for (int i = 0; i < capacity; ++i)
