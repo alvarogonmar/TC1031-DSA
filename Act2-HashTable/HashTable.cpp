@@ -96,3 +96,7 @@ void HashTable::remove(const std::string &key)
         {
             break;
         }
+        i++;
+    }
+    std::cout << "Key not found for removal\n";
+}
