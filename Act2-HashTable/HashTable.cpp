@@ -111,3 +111,5 @@ void HashTable::display() const
         {
             std::cout << i << ": [" << table[i].key << ", " << table[i].value << "]\n";
         }
+        else if (table[i].deleted)
+        {
