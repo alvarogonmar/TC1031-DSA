@@ -116,3 +116,8 @@ void HashTable::display() const
             std::cout << i << ": [DELETED]\n";
         }
         else
+        {
+            std::cout << i << ": [EMPTY]\n";
+        }
+    }
+}
