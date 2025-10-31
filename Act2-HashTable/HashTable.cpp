@@ -108,3 +108,6 @@ void HashTable::display() const
     for (int i = 0; i < capacity; ++i)
     {
         if (table[i].occupied && !table[i].deleted)
+        {
+            std::cout << i << ": [" << table[i].key << ", " << table[i].value << "]\n";
+        }
