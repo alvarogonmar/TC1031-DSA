@@ -26,3 +26,5 @@ private:
     {
         EMPTY,
         OCCUPIED,
+        DELETED
+    };
