@@ -22,3 +22,4 @@ public:
     void display() const;
 
 private:
+    enum State
