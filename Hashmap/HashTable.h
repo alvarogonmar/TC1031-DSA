@@ -14,3 +14,5 @@ public:
     void insert(int key, int value);
     int *get(int key);
     bool remove(int key);
+
+    size_t hashFunction(int keys) const;
