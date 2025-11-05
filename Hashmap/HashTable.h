@@ -5,3 +5,6 @@
 #include <cstddef>
 
 using namespace std;
+
+class HashTable
+{
