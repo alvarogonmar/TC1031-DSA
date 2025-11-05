@@ -30,3 +30,4 @@ private:
     };
 
     vector<int> keys;
+    vector<int> values;
