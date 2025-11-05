@@ -13,3 +13,4 @@ public:
 
     void insert(int key, int value);
     int *get(int key);
+    bool remove(int key);
