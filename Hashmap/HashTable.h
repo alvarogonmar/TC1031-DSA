@@ -19,3 +19,4 @@ public:
     size_t probe(size_t h, size_t i) const;
     int findIndexOfKey(int key) const;
     int findIndexToInsert(int key) const;
+    void display() const;
