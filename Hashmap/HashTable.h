@@ -25,3 +25,4 @@ private:
     enum State
     {
         EMPTY,
+        OCCUPIED,
