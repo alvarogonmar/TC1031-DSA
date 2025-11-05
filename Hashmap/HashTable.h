@@ -28,3 +28,5 @@ private:
         OCCUPIED,
         DELETED
     };
+
+    vector<int> keys;
