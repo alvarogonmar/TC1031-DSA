@@ -12,3 +12,4 @@ public:
     explicit HashTable(size_t capacity = 7);
 
     void insert(int key, int value);
+    int *get(int key);
