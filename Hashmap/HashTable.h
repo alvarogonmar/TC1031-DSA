@@ -10,3 +10,5 @@ class HashTable
 {
 public:
     explicit HashTable(size_t capacity = 7);
+
+    void insert(int key, int value);
