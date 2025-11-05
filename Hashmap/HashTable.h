@@ -20,3 +20,5 @@ public:
     int findIndexOfKey(int key) const;
     int findIndexToInsert(int key) const;
     void display() const;
+
+private:
