@@ -16,3 +16,4 @@ public:
     bool remove(int key);
 
     size_t hashFunction(int keys) const;
+    size_t probe(size_t h, size_t i) const;
