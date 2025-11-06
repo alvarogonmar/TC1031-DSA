@@ -36,3 +36,5 @@ private:
     size_t capacity;
     size_t size;
 };
+
+#endif
