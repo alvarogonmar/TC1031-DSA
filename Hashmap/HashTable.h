@@ -32,3 +32,5 @@ private:
     vector<int> keys;
     vector<int> values;
     vector<State> states;
+
+    size_t capacity;
