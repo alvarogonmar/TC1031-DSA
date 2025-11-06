@@ -34,3 +34,5 @@ private:
     vector<State> states;
 
     size_t capacity;
+    size_t size;
+};
