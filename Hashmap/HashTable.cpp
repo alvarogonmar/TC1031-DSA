@@ -11,3 +11,5 @@ HashTable::HashTable(size_t cap)
 {
     keys.resize(capacity);
     values.resize(capacity);
+    states.resize(capacity, EMPTY); // todas las celdas empiezan vacías
+}
