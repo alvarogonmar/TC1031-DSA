@@ -15,3 +15,6 @@ HashTable::HashTable(size_t cap)
 }
 
 void HashTable::insert(int key, int value)
+{
+    // 1) si ya existe la clave, ACTUALIZA su valor
+    int idxExisting = findIndexOfKey(key);
