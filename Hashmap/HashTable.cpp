@@ -13,3 +13,5 @@ HashTable::HashTable(size_t cap)
     values.resize(capacity);
     states.resize(capacity, EMPTY); // todas las celdas empiezan vacías
 }
+
+void HashTable::insert(int key, int value)
