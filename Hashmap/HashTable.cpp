@@ -39,3 +39,6 @@ void HashTable::insert(int key, int value)
     states[idx] = OCCUPIED;
     ++size;
 }
+
+size_t HashTable::hashFunction(int key) const
+{
