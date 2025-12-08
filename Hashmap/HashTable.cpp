@@ -42,3 +42,4 @@ void HashTable::insert(int key, int value)
 
 size_t HashTable::hashFunction(int key) const
 {
+    long long k = key;
