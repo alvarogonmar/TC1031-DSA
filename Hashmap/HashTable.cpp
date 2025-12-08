@@ -33,3 +33,5 @@ void HashTable::insert(int key, int value)
         // throw std::runtime_error("HashTable llena");
         return;
     }
+
+    keys[idx] = key;
