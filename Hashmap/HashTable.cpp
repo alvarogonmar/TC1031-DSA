@@ -27,3 +27,9 @@ void HashTable::insert(int key, int value)
     // 2) si no existe, busca dónde insertar (reutiliza DELETED o usa EMPTY)
     int idx = findIndexToInsert(key);
     if (idx == -1)
+    {
+        // tabla llena o probing exhausto → para este ejercicio solo avisa
+        // (más adelante puedes implementar rehash)
+        // throw std::runtime_error("HashTable llena");
+        return;
+    }
