@@ -36,3 +36,4 @@ void HashTable::insert(int key, int value)
 
     keys[idx] = key;
     values[idx] = value;
+    states[idx] = OCCUPIED;
