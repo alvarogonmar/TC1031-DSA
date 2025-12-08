@@ -26,3 +26,4 @@ void HashTable::insert(int key, int value)
 
     // 2) si no existe, busca dónde insertar (reutiliza DELETED o usa EMPTY)
     int idx = findIndexToInsert(key);
+    if (idx == -1)
