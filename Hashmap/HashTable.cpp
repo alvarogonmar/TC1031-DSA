@@ -47,3 +47,5 @@ size_t HashTable::hashFunction(int key) const
     long long r = k % m;
     if (r < 0)
         r += m; // por si key < 0
+    return static_cast<size_t>(r);
+}
