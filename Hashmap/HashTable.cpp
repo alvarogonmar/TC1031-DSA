@@ -44,3 +44,4 @@ size_t HashTable::hashFunction(int key) const
 {
     long long k = key;
     long long m = static_cast<long long>(capacity);
+    long long r = k % m;
