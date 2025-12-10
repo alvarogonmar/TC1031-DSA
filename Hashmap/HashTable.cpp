@@ -57,3 +57,4 @@ size_t HashTable::probe(size_t h, size_t i) const
 
 int HashTable::findIndexOfKey(int key) const
 {
+    size_t h = hashFunction(key);
