@@ -79,3 +79,5 @@ int HashTable::findIndexToInsert(int key) const
     size_t h = hashFunction(key);
 
     int firstDeleted = -1;
+
+    for (size_t i = 0; i < capacity; i++)
