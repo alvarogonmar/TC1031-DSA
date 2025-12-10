@@ -62,3 +62,6 @@ int HashTable::findIndexOfKey(int key) const
     {
         size_t j = probe(h, i);
         if (states[j] == EMPTY)
+        {
+            return -1;
+        }
