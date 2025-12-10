@@ -49,3 +49,5 @@ size_t HashTable::hashFunction(int key) const
         r += m; // por si key < 0
     return static_cast<size_t>(r);
 }
+
+size_t HashTable::probe(size_t h, size_t i) const
