@@ -73,3 +73,5 @@ int HashTable::findIndexOfKey(int key) const
     }
     return -1;
 }
+
+int HashTable::findIndexToInsert(int key) const
