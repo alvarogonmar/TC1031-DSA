@@ -51,3 +51,6 @@ size_t HashTable::hashFunction(int key) const
 }
 
 size_t HashTable::probe(size_t h, size_t i) const
+{
+    return (h + i * i) % capacity;
+}
