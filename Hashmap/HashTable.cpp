@@ -67,3 +67,6 @@ int HashTable::findIndexOfKey(int key) const
         }
 
         if (states[j] == OCCUPIED && keys[j] == key)
+        {
+            return static_cast<int>(j);
+        }
