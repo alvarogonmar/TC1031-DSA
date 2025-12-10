@@ -54,3 +54,6 @@ size_t HashTable::probe(size_t h, size_t i) const
 {
     return (h + i * i) % capacity;
 }
+
+int HashTable::findIndexOfKey(int key) const
+{
