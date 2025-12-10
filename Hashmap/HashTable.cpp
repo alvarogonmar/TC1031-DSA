@@ -70,3 +70,6 @@ int HashTable::findIndexOfKey(int key) const
         {
             return static_cast<int>(j);
         }
+    }
+    return -1;
+}
