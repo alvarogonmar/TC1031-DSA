@@ -65,3 +65,5 @@ int HashTable::findIndexOfKey(int key) const
         {
             return -1;
         }
+
+        if (states[j] == OCCUPIED && keys[j] == key)
