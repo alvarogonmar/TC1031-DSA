@@ -91,3 +91,5 @@ int HashTable::findIndexToInsert(int key) const
             }
         }
         else if (states[j] == DELETED)
+        {
+            if (firstDeleted == -1)
