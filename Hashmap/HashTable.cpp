@@ -82,3 +82,4 @@ int HashTable::findIndexToInsert(int key) const
 
     for (size_t i = 0; i < capacity; i++)
     {
+        size_t j = probe(h, i);
