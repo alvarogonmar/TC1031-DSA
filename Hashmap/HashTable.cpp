@@ -93,3 +93,6 @@ int HashTable::findIndexToInsert(int key) const
         else if (states[j] == DELETED)
         {
             if (firstDeleted == -1)
+            {
+                firstDeleted = static_cast<int>(j);
+            }
