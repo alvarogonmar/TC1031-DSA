@@ -86,3 +86,7 @@ int HashTable::findIndexToInsert(int key) const
         if (states[j] == OCCUPIED)
         {
             if (keys[j] == key)
+            {
+                return static_cast<int>(j);
+            }
+        }
