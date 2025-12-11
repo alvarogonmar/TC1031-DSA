@@ -98,3 +98,6 @@ int HashTable::findIndexToInsert(int key) const
             }
         }
         else
+        {
+            return (firstDeleted != -1) ? firstDeleted : static_cast<int>(j);
+        }
