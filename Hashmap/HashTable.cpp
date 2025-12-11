@@ -84,3 +84,5 @@ int HashTable::findIndexToInsert(int key) const
     {
         size_t j = probe(h, i);
         if (states[j] == OCCUPIED)
+        {
+            if (keys[j] == key)
