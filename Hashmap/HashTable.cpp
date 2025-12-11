@@ -96,3 +96,5 @@ int HashTable::findIndexToInsert(int key) const
             {
                 firstDeleted = static_cast<int>(j);
             }
+        }
+        else
