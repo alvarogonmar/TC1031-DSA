@@ -90,3 +90,4 @@ int HashTable::findIndexToInsert(int key) const
                 return static_cast<int>(j);
             }
         }
+        else if (states[j] == DELETED)
