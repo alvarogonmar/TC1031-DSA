@@ -81,3 +81,4 @@ int HashTable::findIndexToInsert(int key) const
     int firstDeleted = -1;
 
     for (size_t i = 0; i < capacity; i++)
+    {
