@@ -113,3 +113,6 @@ void HashTable::display() const
     for (size_t i = 0; i < capacity; i++)
     {
         if (states[i] == OCCUPIED)
+        {
+            cout << i << ": key=" << keys[i] << ", value=" << values[i] << "\n";
+        }
