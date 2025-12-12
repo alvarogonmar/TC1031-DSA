@@ -117,3 +117,6 @@ void HashTable::display() const
             cout << i << ": key=" << keys[i] << ", value=" << values[i] << "\n";
         }
         else if (states[i] == EMPTY)
+        {
+            cout << i << ": EMPTY\n";
+        }
