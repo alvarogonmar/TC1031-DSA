@@ -107,3 +107,5 @@ int HashTable::findIndexToInsert(int key) const
         return firstDeleted;
     return -1;
 }
+
+void HashTable::display() const
