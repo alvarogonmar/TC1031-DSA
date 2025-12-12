@@ -122,3 +122,7 @@ void HashTable::display() const
         }
         else
         {
+            cout << i << ": DELETED\n";
+        }
+    }
+}
