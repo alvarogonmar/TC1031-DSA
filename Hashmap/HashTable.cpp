@@ -109,3 +109,5 @@ int HashTable::findIndexToInsert(int key) const
 }
 
 void HashTable::display() const
+{
+    for (size_t i = 0; i < capacity; i++)
