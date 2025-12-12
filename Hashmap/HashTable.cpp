@@ -126,3 +126,5 @@ void HashTable::display() const
         }
     }
 }
+
+int *HashTable::get(int key)
