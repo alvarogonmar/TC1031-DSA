@@ -104,3 +104,4 @@ int HashTable::findIndexToInsert(int key) const
     }
 
     if (firstDeleted != -1)
+        return firstDeleted;
