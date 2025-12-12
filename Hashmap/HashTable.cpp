@@ -120,3 +120,5 @@ void HashTable::display() const
         {
             cout << i << ": EMPTY\n";
         }
+        else
+        {
