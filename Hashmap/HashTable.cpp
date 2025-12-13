@@ -132,3 +132,5 @@ int *HashTable::get(int key)
     int idx = findIndexOfKey(key);
     if (idx == -1)
         return nullptr;
+    return &values[idx];
+}
