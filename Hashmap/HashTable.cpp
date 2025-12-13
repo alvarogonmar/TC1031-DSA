@@ -139,3 +139,4 @@ bool HashTable::remove(int key)
 {
     int idx = findIndexOfKey(key);
     if (idx == -1)
+        return false;
