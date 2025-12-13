@@ -134,3 +134,5 @@ int *HashTable::get(int key)
         return nullptr;
     return &values[idx];
 }
+
+bool HashTable::remove(int key)
