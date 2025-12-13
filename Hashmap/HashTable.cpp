@@ -141,3 +141,5 @@ bool HashTable::remove(int key)
     if (idx == -1)
         return false;
     states[idx] = DELETED;
+    return true;
+}
