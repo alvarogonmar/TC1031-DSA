@@ -136,3 +136,5 @@ int *HashTable::get(int key)
 }
 
 bool HashTable::remove(int key)
+{
+    int idx = findIndexOfKey(key);
