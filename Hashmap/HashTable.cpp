@@ -147,3 +147,6 @@ bool HashTable::remove(int key)
 int main()
 {
     HashTable ht(7);
+
+    // Inserciones (incluye colisión 3 y 17 si cap=7)
+    ht.insert(10, 100);
