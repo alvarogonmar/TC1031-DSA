@@ -145,3 +145,5 @@ bool HashTable::remove(int key)
 }
 
 int main()
+{
+    HashTable ht(7);
