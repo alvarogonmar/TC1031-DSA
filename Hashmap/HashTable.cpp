@@ -159,3 +159,4 @@ int main()
     // Lecturas
     auto p10 = ht.get(10);
     auto p3 = ht.get(3);
+    auto p17 = ht.get(17);
