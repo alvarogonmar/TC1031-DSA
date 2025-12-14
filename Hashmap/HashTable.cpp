@@ -154,3 +154,4 @@ int main()
     ht.insert(17, 300);
 
     cout << "== Estado inicial ==\n";
+    ht.display();
