@@ -152,3 +152,5 @@ int main()
     ht.insert(10, 100);
     ht.insert(3, 200);
     ht.insert(17, 300);
+
+    cout << "== Estado inicial ==\n";
