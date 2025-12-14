@@ -151,3 +151,4 @@ int main()
     // Inserciones (incluye colisión 3 y 17 si cap=7)
     ht.insert(10, 100);
     ht.insert(3, 200);
+    ht.insert(17, 300);
