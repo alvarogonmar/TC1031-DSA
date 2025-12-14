@@ -155,3 +155,6 @@ int main()
 
     cout << "== Estado inicial ==\n";
     ht.display();
+
+    // Lecturas
+    auto p10 = ht.get(10);
