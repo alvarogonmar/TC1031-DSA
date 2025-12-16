@@ -167,3 +167,6 @@ int main()
     cout << "get(3):  " << (p3 ? to_string(*p3) : string("nullptr")) << "\n";
     cout << "get(17): " << (p17 ? to_string(*p17) : string("nullptr")) << "\n";
     cout << "get(99): " << (p99 ? to_string(*p99) : string("nullptr")) << " (esperado nullptr)\n";
+
+    // Actualización
+    ht.insert(10, 999);
