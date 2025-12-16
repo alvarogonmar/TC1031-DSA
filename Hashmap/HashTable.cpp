@@ -172,3 +172,4 @@ int main()
     ht.insert(10, 999);
     cout << "\n== Después de actualizar 10->999 ==\n";
     ht.display();
+    cout << "get(10): " << (ht.get(10) ? to_string(*ht.get(10)) : string("nullptr")) << " (esperado 999)\n";
