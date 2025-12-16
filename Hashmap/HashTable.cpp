@@ -171,3 +171,4 @@ int main()
     // Actualización
     ht.insert(10, 999);
     cout << "\n== Después de actualizar 10->999 ==\n";
+    ht.display();
