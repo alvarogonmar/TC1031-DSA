@@ -161,3 +161,5 @@ int main()
     auto p3 = ht.get(3);
     auto p17 = ht.get(17);
     auto p99 = ht.get(99);
+
+    cout << "\n== Lecturas ==\n";
