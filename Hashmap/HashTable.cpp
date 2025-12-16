@@ -163,3 +163,4 @@ int main()
     auto p99 = ht.get(99);
 
     cout << "\n== Lecturas ==\n";
+    cout << "get(10): " << (p10 ? to_string(*p10) : string("nullptr")) << "\n";
