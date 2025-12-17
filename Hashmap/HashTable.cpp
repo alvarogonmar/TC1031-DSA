@@ -185,3 +185,6 @@ int main()
     ht.insert(24, 2400); // 24 % 7 == 3, suele reutilizar el tombstone de 3
     cout << "\n== Después de insertar 24 (reutiliza DELETED) ==\n";
     ht.display();
+
+    return 0;
+}
