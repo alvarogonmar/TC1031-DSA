@@ -182,8 +182,8 @@ int main()
     cout << "get(3): " << (ht.get(3) ? to_string(*ht.get(3)) : string("nullptr")) << " (esperado nullptr)\n";
 
     // Reutilización de DELETED (inserta algo que caiga en la misma región)
-    ht.insert(24, 2400); // 24 % 7 == 3, suele reutilizar el tombstone de 3
-    cout << "\n== Después de insertar 24 (reutiliza DELETED) ==\n";
+    ht.insert(24, 2400);                                            // 24 % 7 == 3, suele reutilizar el tombstone de 3
+    cout << "\n== Después de insertar 24 (reutiliza DELETED) ==\n"; // After inserting 24 (reuses DELETED)
     ht.display();
 
     return 0;
