@@ -178,3 +178,4 @@ int main()
     bool removed = ht.remove(3);
     cout << "\nremove(3): " << (removed ? "true" : "false") << "\n";
     cout << "== Después de remove(3) ==\n";
+    ht.display();
