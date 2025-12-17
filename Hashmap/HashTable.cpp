@@ -179,3 +179,4 @@ int main()
     cout << "\nremove(3): " << (removed ? "true" : "false") << "\n";
     cout << "== Después de remove(3) ==\n";
     ht.display();
+    cout << "get(3): " << (ht.get(3) ? to_string(*ht.get(3)) : string("nullptr")) << " (esperado nullptr)\n";
