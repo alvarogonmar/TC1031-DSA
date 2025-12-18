@@ -10,3 +10,4 @@ class LinkedList {
     // Inicialización de head, tail y length
     constructor() {
         this.head = null;
+        this.tail = null;
