@@ -7,3 +7,5 @@ class Node {
 }
 
 class LinkedList {
+    // Inicialización de head, tail y length
+    constructor() {
