@@ -5,3 +5,5 @@ class Node {
         this.next = null;
     };
 }
+
+class LinkedList {
