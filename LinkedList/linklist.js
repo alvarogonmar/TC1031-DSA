@@ -21,3 +21,4 @@ class LinkedList {
 
         // Verificar si this.head existe
         if (this.head === null) {
+            this.head = newNode;
