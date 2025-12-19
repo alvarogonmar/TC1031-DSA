@@ -19,3 +19,5 @@ class LinkedList {
         let newNode = new Node(value);
         this.length++;
 
+        // Verificar si this.head existe
+        if (this.head === null) {
