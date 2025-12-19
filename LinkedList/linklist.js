@@ -28,3 +28,6 @@ class LinkedList {
 
         // Agregar al inicio
         newNode.next = this.head;
+        this.head = newNode;
+    };
+
