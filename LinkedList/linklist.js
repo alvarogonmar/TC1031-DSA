@@ -13,3 +13,6 @@ class LinkedList {
         this.tail = null;
         this.length = 0;
     };
+
+    // Insertar al principio O(1)
+    insertAtBeginning(value) {
