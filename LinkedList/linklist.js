@@ -31,3 +31,5 @@ class LinkedList {
         this.head = newNode;
     };
 
+    // Insertar al final O(1)
+    insertAtEnd(value) {
