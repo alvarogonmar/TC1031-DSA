@@ -25,3 +25,6 @@ class LinkedList {
             this.tail = newNode;
             return;
         }
+
+        // Agregar al inicio
+        newNode.next = this.head;
