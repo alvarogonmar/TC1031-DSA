@@ -17,3 +17,5 @@ class LinkedList {
     // Insertar al principio O(1)
     insertAtBeginning(value) {
         let newNode = new Node(value);
+        this.length++;
+
