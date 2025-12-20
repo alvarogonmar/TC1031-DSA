@@ -40,3 +40,5 @@ class LinkedList {
         if (this.head === null) {
             this.head = newNode;
             this.tail = newNode;
+            return;
+        }
