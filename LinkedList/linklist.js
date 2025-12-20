@@ -35,3 +35,6 @@ class LinkedList {
     insertAtEnd(value) {
         let newNode = new Node(value);
         this.length++;
+
+        // Verificar si this.head existe
+        if (this.head === null) {
