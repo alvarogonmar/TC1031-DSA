@@ -47,3 +47,6 @@ class LinkedList {
         this.tail.next = newNode;
         this.tail = this.tail.next;
     }
+
+    // Insertar en cierta posición O(n)
+    insertAtPosition(pos, value) {
