@@ -52,3 +52,4 @@ class LinkedList {
     insertAtPosition(pos, value) {
         // Verificar posición en rango
         if (pos < 0 || pos > this.length) {
+            console.log("Out of range of the list")
