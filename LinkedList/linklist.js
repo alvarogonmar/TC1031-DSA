@@ -34,3 +34,4 @@ class LinkedList {
     // Insertar al final O(1)
     insertAtEnd(value) {
         let newNode = new Node(value);
+        this.length++;
