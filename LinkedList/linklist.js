@@ -42,3 +42,6 @@ class LinkedList {
             this.tail = newNode;
             return;
         }
+
+        // Agregar al final
+        this.tail.next = newNode;
