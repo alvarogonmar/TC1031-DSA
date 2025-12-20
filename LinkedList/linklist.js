@@ -50,3 +50,5 @@ class LinkedList {
 
     // Insertar en cierta posición O(n)
     insertAtPosition(pos, value) {
+        // Verificar posición en rango
+        if (pos < 0 || pos > this.length) {
