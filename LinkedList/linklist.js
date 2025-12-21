@@ -70,3 +70,4 @@ class LinkedList {
 
         // Insertar dentro de la lista
         let newNode = new Node(value);
+        let currPosition = 1
