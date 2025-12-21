@@ -80,3 +80,5 @@ class LinkedList {
         curr.next = newNode;
     }
 
+    // Elimina el primer nodo que contenga ese valor O(n)
+    deleteValue(value) {
