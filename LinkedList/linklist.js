@@ -68,3 +68,5 @@ class LinkedList {
             return;
         }
 
+        // Insertar dentro de la lista
+        let newNode = new Node(value);
