@@ -86,3 +86,5 @@ class LinkedList {
         if (this.head.data === value) {
             this.head = this.head.next;
             this.length--;
+            return;
+        }
