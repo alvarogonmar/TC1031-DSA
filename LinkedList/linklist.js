@@ -82,3 +82,5 @@ class LinkedList {
 
     // Elimina el primer nodo que contenga ese valor O(n)
     deleteValue(value) {
+        // Caso en el que queremos eliminar el primer nodo
+        if (this.head.data === value) {
