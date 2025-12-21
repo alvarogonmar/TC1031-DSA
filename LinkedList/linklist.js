@@ -61,3 +61,6 @@ class LinkedList {
             this.insertAtBeginning(value);
             return;
         }
+
+        // Insertar al final
+        if (pos === this.length) {
