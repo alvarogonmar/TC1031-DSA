@@ -76,3 +76,4 @@ class LinkedList {
             curr = curr.next;
             currPosition++;
         }
+        newNode.next = curr.next;
