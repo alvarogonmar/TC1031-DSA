@@ -73,3 +73,4 @@ class LinkedList {
         let currPosition = 1
         let curr = this.head
         while (currPosition < pos) {
+            curr = curr.next;
