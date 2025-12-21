@@ -56,3 +56,5 @@ class LinkedList {
             return;
         }
 
+        // Insertar al principio
+        if (pos === 0) {
