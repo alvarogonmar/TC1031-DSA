@@ -59,3 +59,5 @@ class LinkedList {
         // Insertar al principio
         if (pos === 0) {
             this.insertAtBeginning(value);
+            return;
+        }
