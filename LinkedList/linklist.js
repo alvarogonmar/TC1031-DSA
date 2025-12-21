@@ -85,3 +85,4 @@ class LinkedList {
         // Caso en el que queremos eliminar el primer nodo
         if (this.head.data === value) {
             this.head = this.head.next;
+            this.length--;
