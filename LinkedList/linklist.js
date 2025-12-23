@@ -99,3 +99,5 @@ class LinkedList {
                 if (curr.next === null) {
                     this.tail = curr;
                 }
+                return;
+            }
