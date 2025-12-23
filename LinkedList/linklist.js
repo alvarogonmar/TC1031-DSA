@@ -103,3 +103,8 @@ class LinkedList {
             }
             curr = curr.next;
         }
+
+        // Si no se encuentra el valor
+        console.log("Couldn't find the value on the linked list");
+
+    }
