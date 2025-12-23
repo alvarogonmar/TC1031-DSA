@@ -101,3 +101,5 @@ class LinkedList {
                 }
                 return;
             }
+            curr = curr.next;
+        }
