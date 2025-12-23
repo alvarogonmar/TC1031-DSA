@@ -91,3 +91,4 @@ class LinkedList {
 
         // Caso en el que no queremos eliminar el primer nodo
         let curr = this.head;
+        while (curr.next) {
