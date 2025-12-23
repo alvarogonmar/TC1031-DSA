@@ -108,3 +108,6 @@ class LinkedList {
         console.log("Couldn't find the value on the linked list");
 
     }
+
+    // Devolver true si el valor está en la lista, false si no O(n)
+    search(value) {
