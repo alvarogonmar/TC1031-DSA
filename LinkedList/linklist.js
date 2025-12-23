@@ -96,3 +96,4 @@ class LinkedList {
             if (nxt.data === value) {
                 curr.next = nxt.next;
                 this.length--;
+                if (curr.next === null) {
