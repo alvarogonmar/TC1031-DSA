@@ -88,3 +88,6 @@ class LinkedList {
             this.length--;
             return;
         }
+
+        // Caso en el que no queremos eliminar el primer nodo
+        let curr = this.head;
