@@ -94,3 +94,4 @@ class LinkedList {
         while (curr.next) {
             let nxt = curr.next;
             if (nxt.data === value) {
+                curr.next = nxt.next;
