@@ -138,3 +138,6 @@ class LinkedList {
     }
 }
 
+
+// === TESTS ===
+let myList = new LinkedList();
