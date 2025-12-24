@@ -133,3 +133,8 @@ class LinkedList {
         // Imprimir todos los nodos
         while (curr) {
             console.log(curr);
+            curr = curr.next;
+        }
+    }
+}
+
