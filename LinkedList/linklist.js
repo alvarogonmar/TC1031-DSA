@@ -121,3 +121,7 @@ class LinkedList {
             }
             curr = curr.next;
         }
+
+        // Retornar falso si no se encuentra
+        return false;
+    }
