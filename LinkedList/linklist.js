@@ -147,3 +147,5 @@ myList.insertAtEnd(100);
 myList.insertAtEnd(200);
 myList.insertAtEnd(300);
 myList.display();
+
+console.log('\n== Insert at beginning ==');
