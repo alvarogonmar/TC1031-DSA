@@ -119,3 +119,5 @@ class LinkedList {
             if (curr.data === value) {
                 return true
             }
+            curr = curr.next;
+        }
