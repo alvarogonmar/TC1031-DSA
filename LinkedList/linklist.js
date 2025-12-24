@@ -149,3 +149,4 @@ myList.insertAtEnd(300);
 myList.display();
 
 console.log('\n== Insert at beginning ==');
+myList.insertAtBeginning(50);
