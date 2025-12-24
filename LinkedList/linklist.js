@@ -144,3 +144,4 @@ let myList = new LinkedList();
 
 console.log('== Insert at end ==');
 myList.insertAtEnd(100);
+myList.insertAtEnd(200);
