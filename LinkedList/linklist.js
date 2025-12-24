@@ -141,3 +141,5 @@ class LinkedList {
 
 // === TESTS ===
 let myList = new LinkedList();
+
+console.log('== Insert at end ==');
