@@ -112,3 +112,6 @@ class LinkedList {
     // Devolver true si el valor está en la lista, false si no O(n)
     search(value) {
         let curr = this.head;
+
+        // Buscar el valor
+        while (curr) {
