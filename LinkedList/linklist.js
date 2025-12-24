@@ -115,3 +115,5 @@ class LinkedList {
 
         // Buscar el valor
         while (curr) {
+            // Retornar verdadero si se encuentra
+            if (curr.data === value) {
