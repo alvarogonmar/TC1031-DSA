@@ -125,3 +125,6 @@ class LinkedList {
         // Retornar falso si no se encuentra
         return false;
     }
+
+    // Mostrar todos los elementos en orden O(n)
+    display() {
