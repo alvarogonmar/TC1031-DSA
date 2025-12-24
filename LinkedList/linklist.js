@@ -129,3 +129,6 @@ class LinkedList {
     // Mostrar todos los elementos en orden O(n)
     display() {
         let curr = this.head;
+
+        // Imprimir todos los nodos
+        while (curr) {
