@@ -157,3 +157,4 @@ myList.insertAtPosition(2, 150);
 myList.display();
 
 console.log('\n== Search for existing and non-existing values ==');
+console.log('Search 100:', myList.search(100)); // true
