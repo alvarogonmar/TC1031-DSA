@@ -154,3 +154,4 @@ myList.display();
 
 console.log('\n== Insert at position 2 (should be 150) ==');
 myList.insertAtPosition(2, 150);
+myList.display();
