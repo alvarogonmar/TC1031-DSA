@@ -163,3 +163,5 @@ console.log('Search 999:', myList.search(999)); // false
 console.log('\n== Delete value 200 (middle) ==');
 myList.deleteValue(200);
 myList.display();
+
+console.log('\n== Delete value 50 (head) ==');
