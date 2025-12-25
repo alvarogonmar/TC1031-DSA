@@ -159,3 +159,5 @@ myList.display();
 console.log('\n== Search for existing and non-existing values ==');
 console.log('Search 100:', myList.search(100)); // true
 console.log('Search 999:', myList.search(999)); // false
+
+console.log('\n== Delete value 200 (middle) ==');
