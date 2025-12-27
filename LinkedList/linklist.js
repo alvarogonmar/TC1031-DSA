@@ -166,3 +166,4 @@ myList.display();
 
 console.log('\n== Delete value 50 (head) ==');
 myList.deleteValue(50);
+myList.display();
