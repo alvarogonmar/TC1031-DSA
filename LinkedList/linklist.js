@@ -169,3 +169,4 @@ myList.deleteValue(50);
 myList.display();
 
 console.log('\n== Delete value 300 (tail) ==');
+myList.deleteValue(300);
