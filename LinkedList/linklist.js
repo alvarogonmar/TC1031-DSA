@@ -174,3 +174,4 @@ myList.display();
 
 console.log('\n== Try to delete non-existing value 999 ==');
 myList.deleteValue(999);
+myList.display();
