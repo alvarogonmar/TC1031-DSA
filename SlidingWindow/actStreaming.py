@@ -25,3 +25,5 @@ def log_recov(msg):
 
 async def productor(datos):
     global next_id, reconectado
+
+    for s in datos:
