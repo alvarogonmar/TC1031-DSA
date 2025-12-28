@@ -27,3 +27,5 @@ async def productor(datos):
     global next_id, reconectado
 
     for s in datos:
+        await asyncio.sleep(INTERVALO_NET)
+
