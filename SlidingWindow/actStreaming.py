@@ -15,3 +15,4 @@ reconectado = False
 producer_finished = False
 
 def log_net(msg):
+    print(f"[NET] {msg}")
