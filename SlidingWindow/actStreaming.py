@@ -22,3 +22,5 @@ def log_player(msg):
 
 def log_recov(msg):
     print(f"[RECOVERY] {msg}")
+
+async def productor(datos):
