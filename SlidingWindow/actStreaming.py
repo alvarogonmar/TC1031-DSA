@@ -9,3 +9,4 @@ INTERVALO_PLAYER = 0.15
 INTERVALO_NET = 0.12
 
 buffer = deque(maxlen=CAPACITY)
+next_id = 0
