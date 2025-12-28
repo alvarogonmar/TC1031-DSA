@@ -18,3 +18,4 @@ def log_net(msg):
     print(f"[NET] {msg}")
 
 def log_player(msg):
+    print(f"[PLAYER] {msg}")
