@@ -24,3 +24,4 @@ def log_recov(msg):
     print(f"[RECOVERY] {msg}")
 
 async def productor(datos):
+    global next_id, reconectado
