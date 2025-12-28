@@ -21,3 +21,4 @@ def log_player(msg):
     print(f"[PLAYER] {msg}")
 
 def log_recov(msg):
+    print(f"[RECOVERY] {msg}")
