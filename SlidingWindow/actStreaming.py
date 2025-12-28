@@ -13,3 +13,5 @@ next_id = 0
 reconectado = False
 
 producer_finished = False
+
+def log_net(msg):
