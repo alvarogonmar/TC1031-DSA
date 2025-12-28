@@ -10,3 +10,4 @@ INTERVALO_NET = 0.12
 
 buffer = deque(maxlen=CAPACITY)
 next_id = 0
+reconectado = False
