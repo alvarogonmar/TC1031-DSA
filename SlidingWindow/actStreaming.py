@@ -40,3 +40,4 @@ async def productor(datos):
             log_net(f"Chunk recibido #{next_id} | buffer={len(buffer)}/{CAPACITY}")
         
         else:
+            log_net("OFFLINE")
