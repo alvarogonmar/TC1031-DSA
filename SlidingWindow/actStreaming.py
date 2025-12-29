@@ -34,3 +34,4 @@ async def productor(datos):
 
             if reconectado:
                 log_net("Reconectado | rellenando...")
+                reconectado = False
