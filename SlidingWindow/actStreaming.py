@@ -37,3 +37,4 @@ async def productor(datos):
                 reconectado = False
             
             buffer.append(next_id)
+            log_net(f"Chunk recibido #{next_id} | buffer={len(buffer)}/{CAPACITY}")
