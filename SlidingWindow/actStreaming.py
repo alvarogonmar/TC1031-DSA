@@ -41,3 +41,4 @@ async def productor(datos):
         
         else:
             log_net("OFFLINE")
+            reconectado = True
