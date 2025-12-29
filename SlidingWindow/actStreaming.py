@@ -31,3 +31,5 @@ async def productor(datos):
 
         if s in ("0", "1"):
             next_id += 1
+
+            if reconectado:
