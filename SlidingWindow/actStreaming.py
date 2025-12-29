@@ -29,3 +29,4 @@ async def productor(datos):
     for s in datos:
         await asyncio.sleep(INTERVALO_NET)
 
+        if s in ("0", "1"):
