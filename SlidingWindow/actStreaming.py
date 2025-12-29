@@ -30,3 +30,4 @@ async def productor(datos):
         await asyncio.sleep(INTERVALO_NET)
 
         if s in ("0", "1"):
+            next_id += 1
