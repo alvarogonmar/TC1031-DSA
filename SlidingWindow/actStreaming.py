@@ -45,3 +45,5 @@ async def productor(datos):
 
     global producer_finished
     producer_finished = True
+
+async def player():
