@@ -44,3 +44,4 @@ async def productor(datos):
             reconectado = True
 
     global producer_finished
+    producer_finished = True
