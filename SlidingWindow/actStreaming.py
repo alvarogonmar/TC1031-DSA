@@ -64,3 +64,4 @@ async def player():
                     log_recov(f"Rellenando… | buffer={len(buffer)}/{CAPACITY}")
         else:
             if buffer:
+                frame = buffer.popleft()  # consume FIFO
