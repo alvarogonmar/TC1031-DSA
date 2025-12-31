@@ -60,3 +60,4 @@ async def player():
             else:
                 if len(buffer) == 0:
                     log_player("Buffer vacío → buffering")
+                else:
