@@ -62,3 +62,4 @@ async def player():
                     log_player("Buffer vacío → buffering")
                 else:
                     log_recov(f"Rellenando… | buffer={len(buffer)}/{CAPACITY}")
+        else:
