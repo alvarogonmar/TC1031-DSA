@@ -56,3 +56,4 @@ async def player():
         if recovering:
             if len(buffer) >= WARMUP:
                 recovering = False
+                log_recov(f"Reanudando | buffer={len(buffer)}/{CAPACITY}")
