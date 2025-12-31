@@ -52,3 +52,5 @@ async def player():
 
     while True:
         await asyncio.sleep(INTERVALO_PLAYER)
+
+        if recovering:
