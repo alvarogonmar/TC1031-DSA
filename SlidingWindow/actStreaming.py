@@ -55,3 +55,4 @@ async def player():
 
         if recovering:
             if len(buffer) >= WARMUP:
+                recovering = False
