@@ -48,3 +48,4 @@ async def productor(datos):
 
 async def player():
     global producer_finished
+    recovering = True
