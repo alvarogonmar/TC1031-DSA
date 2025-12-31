@@ -58,3 +58,4 @@ async def player():
                 recovering = False
                 log_recov(f"Reanudando | buffer={len(buffer)}/{CAPACITY}")
             else:
+                if len(buffer) == 0:
