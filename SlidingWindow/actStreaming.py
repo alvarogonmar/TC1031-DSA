@@ -63,3 +63,4 @@ async def player():
                 else:
                     log_recov(f"Rellenando… | buffer={len(buffer)}/{CAPACITY}")
         else:
+            if buffer:
