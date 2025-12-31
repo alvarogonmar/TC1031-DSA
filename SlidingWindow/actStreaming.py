@@ -54,3 +54,4 @@ async def player():
         await asyncio.sleep(INTERVALO_PLAYER)
 
         if recovering:
+            if len(buffer) >= WARMUP:
