@@ -69,3 +69,6 @@ async def player():
             else:
                 log_player("Buffer vacío → buffering")
                 recovering = True
+
+        # productor terminó y ya no quedan datos
+        if producer_finished and len(buffer) == 0:
