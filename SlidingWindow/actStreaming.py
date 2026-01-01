@@ -77,3 +77,5 @@ async def player():
 
 async def main():
     await asyncio.gather(productor(datos), player())
+
+if __name__ == "__main__":
