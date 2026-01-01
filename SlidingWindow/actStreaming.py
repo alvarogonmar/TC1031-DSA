@@ -73,3 +73,6 @@ async def player():
         # productor terminó y ya no quedan datos
         if producer_finished and len(buffer) == 0:
             break
+
+
+async def main():
