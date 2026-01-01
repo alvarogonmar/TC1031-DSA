@@ -68,3 +68,4 @@ async def player():
                 log_player(f"Reproduciendo frame #{frame} | buffer={len(buffer)}/{CAPACITY}")
             else:
                 log_player("Buffer vacío → buffering")
+                recovering = True
