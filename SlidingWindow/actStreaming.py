@@ -67,3 +67,4 @@ async def player():
                 frame = buffer.popleft()  # consume FIFO
                 log_player(f"Reproduciendo frame #{frame} | buffer={len(buffer)}/{CAPACITY}")
             else:
+                log_player("Buffer vacío → buffering")
