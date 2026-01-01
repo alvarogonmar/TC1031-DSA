@@ -76,3 +76,4 @@ async def player():
 
 
 async def main():
+    await asyncio.gather(productor(datos), player())
