@@ -6,3 +6,4 @@ using namespace std;
 struct Message
 {
     int id;
+    string sender;
