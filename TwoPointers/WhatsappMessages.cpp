@@ -8,3 +8,5 @@ struct Message
     int id;
     string sender;
     string text;
+    bool deleted;
+};
