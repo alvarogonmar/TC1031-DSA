@@ -24,3 +24,4 @@ vector<Message> generateChatHistory(int n)
     {
         Message msg;
         msg.id = i + 1;
+        msg.sender = (i % 2 == 0 ? "Alice" : "Bob");
