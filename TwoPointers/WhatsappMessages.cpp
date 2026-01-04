@@ -14,3 +14,4 @@ struct Message
 vector<Message> generateChatHistory(int n)
 {
     vector<Message> history;
+    history.reserve(n);
