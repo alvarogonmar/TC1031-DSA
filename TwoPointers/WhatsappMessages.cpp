@@ -23,3 +23,4 @@ vector<Message> generateChatHistory(int n)
     for (int i = 0; i < n; i++)
     {
         Message msg;
+        msg.id = i + 1;
