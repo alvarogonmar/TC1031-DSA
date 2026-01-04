@@ -29,3 +29,5 @@ vector<Message> generateChatHistory(int n)
         msg.deleted = (i % 17 == 0); // cada 17 mensajes, se elimina uno
         history.push_back(msg);
     }
+    return history;
+}
