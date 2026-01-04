@@ -21,3 +21,5 @@ vector<Message> generateChatHistory(int n)
         "¿Dónde estás?", "Manda ubicación", "Ya voy", "Adiós", "👍"};
 
     for (int i = 0; i < n; i++)
+    {
+        Message msg;
