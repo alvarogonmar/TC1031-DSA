@@ -12,3 +12,5 @@ struct Message
 };
 
 vector<Message> generateChatHistory(int n)
+{
+    vector<Message> history;
