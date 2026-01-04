@@ -39,3 +39,6 @@ void compactHistory(vector<Message> &chat)
         if (chat[i].deleted == false)
         {
             chat[j] = chat[i];
+            j++;
+        }
+    }
