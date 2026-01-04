@@ -10,3 +10,5 @@ struct Message
     string text;
     bool deleted;
 };
+
+vector<Message> generateChatHistory(int n)
