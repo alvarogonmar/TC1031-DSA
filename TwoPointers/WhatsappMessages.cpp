@@ -19,3 +19,5 @@ vector<Message> generateChatHistory(int n)
     vector<string> sampleTexts = {
         "Hola", "¿Cómo estás?", "Todo bien", "Ok", "Nos vemos",
         "¿Dónde estás?", "Manda ubicación", "Ya voy", "Adiós", "👍"};
+
+    for (int i = 0; i < n; i++)
