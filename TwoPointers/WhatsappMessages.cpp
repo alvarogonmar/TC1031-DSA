@@ -17,3 +17,5 @@ vector<Message> generateChatHistory(int n)
     history.reserve(n);
 
     vector<string> sampleTexts = {
+        "Hola", "¿Cómo estás?", "Todo bien", "Ok", "Nos vemos",
+        "¿Dónde estás?", "Manda ubicación", "Ya voy", "Adiós", "👍"};
