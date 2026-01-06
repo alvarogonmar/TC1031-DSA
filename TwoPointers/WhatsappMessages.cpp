@@ -50,3 +50,5 @@ void compactHistory(vector<Message> &chat)
         j++;
     }
 }
+
+int main()
