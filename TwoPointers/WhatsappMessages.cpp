@@ -54,3 +54,6 @@ void compactHistory(vector<Message> &chat)
 int main()
 {
     vector<Message> chat = generateChatHistory(50);
+
+    // Mostrar solo los primeros 10
+    for (int i = 0; i < 50; i++)
