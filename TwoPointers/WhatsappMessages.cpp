@@ -59,3 +59,4 @@ int main()
     for (int i = 0; i < 50; i++)
     {
         cout << chat[i].id << " [" << chat[i].sender << "]: "
+             << chat[i].text
