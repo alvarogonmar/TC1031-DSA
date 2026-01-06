@@ -61,3 +61,5 @@ int main()
         cout << chat[i].id << " [" << chat[i].sender << "]: "
              << chat[i].text
              << (chat[i].deleted ? " (deleted)" : "")
+             << endl;
+    }
