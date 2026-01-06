@@ -52,3 +52,5 @@ void compactHistory(vector<Message> &chat)
 }
 
 int main()
+{
+    vector<Message> chat = generateChatHistory(50);
