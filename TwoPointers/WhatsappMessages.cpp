@@ -47,3 +47,6 @@ void compactHistory(vector<Message> &chat)
     {
         chat[j].deleted = true;
         chat[j].text = "[NULL]";
+        j++;
+    }
+}
