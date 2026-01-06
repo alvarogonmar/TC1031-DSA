@@ -57,3 +57,5 @@ int main()
 
     // Mostrar solo los primeros 10
     for (int i = 0; i < 50; i++)
+    {
+        cout << chat[i].id << " [" << chat[i].sender << "]: "
