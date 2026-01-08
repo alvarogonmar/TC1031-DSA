@@ -65,3 +65,4 @@ int main()
     }
 
     compactHistory(chat);
+    cout << "Total mensajes generados: " << chat.size() << endl;
