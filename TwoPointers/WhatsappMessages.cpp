@@ -68,3 +68,5 @@ int main()
     cout << "Total mensajes generados: " << chat.size() << endl;
 
     cout << "\nDespues de Compactar:\n";
+    for (int i = 0; i < chat.size(); i++)
+    {
