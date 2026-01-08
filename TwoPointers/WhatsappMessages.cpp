@@ -71,3 +71,4 @@ int main()
     for (int i = 0; i < chat.size(); i++)
     {
         cout << chat[i].id << " [" << chat[i].sender << "]: "
+             << chat[i].text
