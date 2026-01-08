@@ -63,3 +63,5 @@ int main()
              << (chat[i].deleted ? " (deleted)" : "")
              << endl;
     }
+
+    compactHistory(chat);
