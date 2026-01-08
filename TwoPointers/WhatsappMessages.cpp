@@ -75,3 +75,6 @@ int main()
              << (chat[i].deleted ? " (deleted)" : "")
              << endl;
     }
+
+    cout << "Total mensajes generados: " << chat.size() << endl;
+}
