@@ -70,3 +70,4 @@ int main()
     cout << "\nDespues de Compactar:\n";
     for (int i = 0; i < chat.size(); i++)
     {
+        cout << chat[i].id << " [" << chat[i].sender << "]: "
